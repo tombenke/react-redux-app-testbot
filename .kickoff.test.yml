@@ -1,0 +1,7 @@
+# Configuration file to generate test-ui via kickoff
+# kickoff -a .kickoff.test.yml -f ~/topics/react-redux-app-testbot/ -d test-react-redux-app-testbot
+package_name: test-react-redux-app-testbot
+package_description: The test version of a headless react-redux application for e2e testing
+author_full_name: Test Author
+author_email: testauthor@gmail.com
+author_github_account: testauthor
