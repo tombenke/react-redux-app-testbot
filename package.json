@@ -1,7 +1,7 @@
 {
   "name": "react-redux-app-testbot",
   "description": "A headless react-redux application for e2e testing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Tamás Benke",
     "email": "tombenke@gmail.com"
