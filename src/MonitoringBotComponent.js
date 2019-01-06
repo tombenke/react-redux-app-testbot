@@ -11,7 +11,6 @@ import {
     getMonitoringIsAliveStateSelector
 } from '@tombenke/redux-app'
 
-
 const mapStateToProps = state => ({
     monitoringIsAlive: monitoringIsAliveSelector(state),
     getMonitoringIsAliveState: getMonitoringIsAliveStateSelector(state)
@@ -22,4 +21,7 @@ const mapDispatchToProps = {
     getMonitoringIsAlive
 }
 
-export const MonitoringBotComponent = connect(mapStateToProps, mapDispatchToProps)(BotComponent)
+export const MonitoringBotComponent = connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(BotComponent)

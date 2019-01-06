@@ -6,7 +6,6 @@ import { mount } from 'enzyme'
 import { MonitoringBotComponent } from './MonitoringBotComponent'
 
 describe('e2e tests', () => {
-
     it('Server is not alive', done => {
         const actionsCh = chan(buffers.dropping(1))
         const renderCh = chan(buffers.sliding(1))
